@@ -15,7 +15,7 @@ public class Prog2 {
         System.out.println("\n2D array elements are:");
         for(int  i = 0; i < r; i++){
             for(int j = 0; j < c ; j++)
-            System.out.print(arr[i][j] + " ");
+                System.out.print(arr[i][j] + " ");
             System.out.println();
         }
         in.close();
