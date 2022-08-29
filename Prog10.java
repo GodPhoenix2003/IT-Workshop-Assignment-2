@@ -9,7 +9,7 @@ public class Prog10 {
             rev = (rev * 10) + (dup % 10);
             dup /= 10;
         }
-        System.out.println("Reversed number: " + rev);
+        System.out.println("Reversed number of " + x +" : " + rev);
         in.close();
     }
 }
