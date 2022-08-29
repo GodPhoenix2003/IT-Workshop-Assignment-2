@@ -5,5 +5,6 @@ public class Prog9 {
         System.out.print("Enter the number(x): ");
         int x = in.nextInt();
         System.out.println("x = " + x);
+        in.close();
     }
 }
